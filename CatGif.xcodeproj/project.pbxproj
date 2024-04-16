@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCAE371A2BCF355000AB181D /* ImagePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE37192BCF355000AB181D /* ImagePopupView.swift */; };
 		CCBB62CD2BC4776400C04BBF /* CatGifApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB62CC2BC4776400C04BBF /* CatGifApp.swift */; };
 		CCBB62CF2BC4776400C04BBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB62CE2BC4776400C04BBF /* ContentView.swift */; };
 		CCBB62D12BC4776500C04BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBB62D02BC4776500C04BBF /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CCAE37192BCF355000AB181D /* ImagePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePopupView.swift; sourceTree = "<group>"; };
 		CCBB62C92BC4776400C04BBF /* CatGif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatGif.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBB62CC2BC4776400C04BBF /* CatGifApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGifApp.swift; sourceTree = "<group>"; };
 		CCBB62CE2BC4776400C04BBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		CCBB63132BC49E7200C04BBF /* CatListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListItemView.swift; sourceTree = "<group>"; };
 		CCBB63152BC49F1A00C04BBF /* CatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailView.swift; sourceTree = "<group>"; };
 		CCBB63172BC4DDD600C04BBF /* CatServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatServiceTests.swift; sourceTree = "<group>"; };
+		CCBB63192BC4EF7B00C04BBF /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,7 @@
 		CCBB62C02BC4776400C04BBF = {
 			isa = PBXGroup;
 			children = (
+				CCBB63192BC4EF7B00C04BBF /* README.MD */,
 				CCBB62CB2BC4776400C04BBF /* CatGif */,
 				CCBB62DC2BC4776500C04BBF /* CatGifTests */,
 				CCBB62E62BC4776500C04BBF /* CatGifUITests */,
@@ -150,6 +154,7 @@
 				CCBB62CE2BC4776400C04BBF /* ContentView.swift */,
 				CCBB63132BC49E7200C04BBF /* CatListItemView.swift */,
 				CCBB63152BC49F1A00C04BBF /* CatDetailView.swift */,
+				CCAE37192BCF355000AB181D /* ImagePopupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				CCBB630C2BC49BEB00C04BBF /* CatItem.swift in Sources */,
 				CCBB630E2BC49C0D00C04BBF /* CatService.swift in Sources */,
 				CCBB63122BC49E3F00C04BBF /* CatListViewModel.swift in Sources */,
+				CCAE371A2BCF355000AB181D /* ImagePopupView.swift in Sources */,
 				CCBB62CD2BC4776400C04BBF /* CatGifApp.swift in Sources */,
 				CCBB63102BC49DB600C04BBF /* GlobalVariables.swift in Sources */,
 				CCBB63142BC49E7200C04BBF /* CatListItemView.swift in Sources */,
